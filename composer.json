@@ -1,0 +1,15 @@
+{
+  "name": "mymentech/namespace",
+  "authors": [
+    {
+      "name": "MymenTech",
+      "email": "mymentech@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Animals\\": "Animals/"
+    }
+  }
+}
