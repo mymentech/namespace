@@ -1,5 +1,6 @@
 <?php
 namespace Animals;
+
 include_once "vendor/autoload.php";
 
 $cat = new Cat();
@@ -10,3 +11,6 @@ $dog->greet();
 
 $test = new Test\Test();
 $test->greet();
+
+$learn = new Learn\Learn;
+$learn->greet();
